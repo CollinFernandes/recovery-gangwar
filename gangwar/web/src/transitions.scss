@@ -1,0 +1,71 @@
+// Fade
+.v-enter-active,
+.v-leave-active,
+.fade-enter-active,
+.fade-leave-active {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.v-enter-from,
+.v-leave-to,
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+
+// right-to-left
+.rtl-enter-active,
+.rtl-leave-active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: opacity 300ms, transform 300ms;
+}
+
+.rtl-enter-from,
+.rtl-leave-to {
+    transform: translateX(2vh);
+    opacity: 0;
+}
+
+// left-to-right
+.ltr-enter-active,
+.ltr-leave-active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: opacity 300ms, transform 300ms;
+}
+
+.ltr-enter-from,
+.ltr-leave-to {
+    transform: translateX(-2vh);
+    opacity: 0;
+}
+
+// top-to-bottom
+.ttb-enter-active,
+.ttb-leave-active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: opacity 300ms, transform 300ms;
+}
+
+.ttb-enter-from,
+.ttb-leave-to {
+    transform: translateY(-20vh);
+    opacity: 0;
+}
+
+// bottom-to-top
+.btt-enter-active,
+.btt-leave-active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: opacity 300ms, transform 300ms;
+}
+
+.btt-enter-from,
+.btt-leave-to {
+    transform: translateY(20vh);
+    opacity: 0;
+}

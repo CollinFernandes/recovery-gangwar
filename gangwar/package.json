@@ -1,0 +1,19 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^20.11.16",
+    "discord-api-types": "^0.37.67",
+    "discord.js": "github:zfbx/discord.js",
+    "esbuild": "^0.20.0",
+    "mysqldump": "^3.2.0",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

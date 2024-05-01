@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weapons>
+    <weapon>
+        <weaponHash>WEAPON_PISTOL</weaponHash>
+        <accuracy>0.5</accuracy>
+        <weaponFlags>0</weaponFlags>
+        <damage>100</damage>
+        <weaponType>0</weaponType>
+        <fireRate>10</fireRate>
+        <reloadSpeed>10</reloadSpeed>
+        <autoReload />
+        <clipSize>12</clipSize>
+        <range>100</range>
+        <weaponGroup>GROUP_PISTOL</weaponGroup>
+        <hudDamage>50</hudDamage>
+        <hudSpeed>50</hudSpeed>
+        <hudCapacity>100</hudCapacity>
+    </weapon>
+</weapons>
